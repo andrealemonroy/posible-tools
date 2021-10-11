@@ -23,7 +23,7 @@
   font-size: 56px;
 }
 .bgLanding{
-  background-image: url('../images/bg-landing.svg');
+  /* background-image: url('../images/bg.webp'); */
   background-size: cover;
 }
 .landingContainer{

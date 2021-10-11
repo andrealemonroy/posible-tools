@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 export default function Home() {
   return (
-    <div className="font-sans bg-landing">
+    <div className="font-sans bg-landing" style={{width: 'fit-content'}}>
       <Head>
         <title>Herramientas para emprendedores</title>
         <meta
@@ -17,9 +17,11 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Poppins"
           rel="stylesheet"
         ></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
       </Head>
-      <div className={styles.bgLanding}>
-        <main className="min-h-screen w-screen text-white p-4 pl-28">
+      <div className="bg-cover bg-center" style={{backgroundImage: 'url("/bg.webp")'}} >
+        <main className="min-h-screen w-screen text-white p-4 lg:pl-28" style={{width: 'fit-content'}}>
           <Link href="/">
             <div className={styles.header}>
               <div className={styles.logo}>
@@ -27,8 +29,8 @@ export default function Home() {
               </div>
             </div>
           </Link>
-          <div className="items-center pt-8 lg:pt-40 font-medium lg:w-3/6">
-            <h1 className="flex-1 lg:text-left text-center lg:text-7xl text-5xl">
+          <div className="items-center pt-8 pt-40 font-medium lg:w-3/6 w-full">
+            <h1 className="flex-1 lg:text-left text-center text-7xl">
               Comienza a digitalizar tu negocio con herramientas gratuitas
             </h1>
             <br />

@@ -16,7 +16,7 @@ export default function Tools() {
           ¿Qué quieres mejorar en tu negocio?
         </h1>
       </div>
-      <div className="grid grid-flow-row grid-cols-2 lg:grid-cols-3 grid-rows-3 gap-4 mt-10 px-40">
+      <div className="grid grid-flow-row grid-cols-2 lg:grid-cols-3 grid-rows-3 gap-4 mt-10 lg:px-40">
         {elements.map((element) => {
           return (
             <Link href={"/" + element[0].AREA}>
