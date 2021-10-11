@@ -7,9 +7,35 @@
   align-items: center;
   height: 100vh;
 }
-
+.logo{
+  height: 90px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1em;
+}
+.textThird{
+  color: #FF7F00;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+.logoDot{
+  color: #FF7F00;
+  font-size: 56px;
+}
+.bgLanding{
+  background-image: url('../images/bg-landing.svg');
+  background-size: cover;
+}
+.landingContainer{
+  background-color: #214EE0;
+  width: 100vw;
+  min-height: 100vh;
+  color: #fff;
+  padding: 1rem;
+  overflow: auto;
+}
 .main {
-  padding: 5rem 0;
+  padding: 5rem;
   flex: 1;
   display: flex;
   flex-direction: column;
